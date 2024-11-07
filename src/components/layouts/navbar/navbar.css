@@ -1,0 +1,32 @@
+
+.navbar{
+display: flex;
+align-items: center;    
+background-color: var(--color-gris-claro);
+
+}
+.navbar-brand{
+    margin-left:90px ;
+    font-family: Montserrat,sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    color: black;
+}
+
+.navbar-nav{
+    display: flex;
+align-items: center;
+}
+
+.navbar-nav li{
+   
+    font-family: Montserrat,system-ui;
+     font-style: italic;
+     font-weight: 400;
+}
+
+.iconos  i{
+    margin-left:6px ;
+    font-size: 20px;
+    color: black;
+}

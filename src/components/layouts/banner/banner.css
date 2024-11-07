@@ -1,0 +1,89 @@
+.cb{
+ background-color:#f8bc43;
+    background-image: url(../../../assets/perr03-Photoroom.png);
+    height: 50vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    margin-top: 4rem;
+   }  
+
+.banner{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 70%;
+height: 100%;
+
+}
+
+.banner h2{
+    font-family: 'Montserrat',system-ui;
+    font-weight: 800;
+    color: var(--color-blanco);
+    letter-spacing: 5px;
+}
+
+.banner p{
+    font-family: 'Montserrat',system-ui;
+    font-weight: 500;
+    color: var(--color-blanco);
+    letter-spacing: 3px;
+}
+
+.banner button{
+    font-family: 'Montserrat',system-ui;
+    font-weight: 800;
+    color: var(--color-negro);
+    letter-spacing: 5px;
+    padding: 15px;
+    margin-left: -380px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+
+}
+
+.bannerL{
+   display:flex;
+   background-color: #f8bc43;
+   font-family: 'Montserrat',system-ui;
+   margin-top: 2rem;
+   margin-bottom: 0;
+   justify-content: space-around;
+   align-items: center;
+   padding: 2rem;
+   color: var(--color-gris-claro);
+}
+
+.bannerL h2{
+font-weight: 800;
+letter-spacing: 2px;
+}
+
+.bannerL p{
+   font-weight: 500; 
+   letter-spacing: 2px;
+}
+
+.bannerL button{
+  border: none;
+  width: 250px;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.banner .bt{
+    background-color: var(--color-gris-claro);
+}
+
+.contact{
+    background-color: var(--color-gris-claro);
+}

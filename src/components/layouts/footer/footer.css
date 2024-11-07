@@ -1,0 +1,38 @@
+.footer{
+    background-color: var(--color-amarillo);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+    
+}
+.footer .brant{
+    font-size: x-large;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+}
+.footer i{
+    background-color: var(--color-negro);
+    color: var(--color-blanco);
+    padding: 10px;
+    border-radius: 40px;
+    margin: 4px;
+}
+.t1{
+    font-family: 'Montserrat',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-weight: 800;
+}
+.c2{
+    display: flex; 
+}
+
+.c2 ul{
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+.c2 li{
+    list-style: none;
+    padding: 7px;
+
+}

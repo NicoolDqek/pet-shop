@@ -1,0 +1,104 @@
+ .all {
+    display: flex;
+   width: 100%;
+   
+   
+ }
+
+ .aside {
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 20px;
+    padding: 3rem; 
+    width: 35%;
+     
+}
+.aside aside{
+   display: inline-flex;
+    background-color: var(--color-amarillo);
+    border-radius: 20px;
+    padding: 1rem;
+    flex-direction: column;
+    margin-left: 10%;
+        width: 40%;
+
+
+}
+.aside .form-check{
+    margin: 0;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+}
+.form-check button i{
+      color: black;
+      position: absolute;
+      right: 0;
+      padding-right: 6px;
+
+
+}
+
+ 
+ .ti1 li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat',system-ui;
+
+    
+ } 
+ 
+ .products{
+    padding-top: 2rem;
+    
+ }
+ 
+ .cards{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.navigation{
+  
+  padding-top: 2rem;
+}
+
+.navigation nav{
+   margin-right: 5rem;
+  
+}
+
+.navigation a{
+   padding: 1rem;
+   border: none;
+   background-color: var(--color-blanco);
+   font-family: 'Montserrat',system-ui;
+   font-weight: 600;
+   color: var(--color-negro);
+   font-size: larger;
+}
+.btnf{
+font-weight: bold;
+margin-bottom: 0;
+background-color: var(--color-naranja);
+border: none;
+min-width: 300px;
+}
+
+.btnf:hover{
+   background-color: var(--color-gris-oscuro);
+}
+.cardf{
+  background-color:var(--color-amarillo);
+   display: flex;
+ align-items: center;
+ font-size: small;
+ letter-spacing: 2px;
+}
+.cardf  input{
+background-color:var(--color-naranja);
+
+ 
+}
+

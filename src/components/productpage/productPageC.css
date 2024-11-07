@@ -1,0 +1,47 @@
+
+.co1{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    
+}
+.ti1{
+ margin-left: 10rem;
+
+}
+.ti1 h4{
+font-size: xx-large;
+font-family: "Montserrat", system-ui;
+font-weight: 800;
+font-style: normal;
+}
+.ti1 h5{
+    font-size: medium;
+    font-family: "Montserrat", system-ui;
+    font-weight: 300;
+    font-style: normal;  
+}
+.dropdown{
+    margin-right: 10rem;
+    display: flex;
+    background-color: var(--color-amarillo);
+    height: 30px;
+    padding: 2px;
+    align-items: center;
+    width: 300px;
+    justify-content: space-around;
+    font-size: small;
+    font-family: "Montserrat", system-ui;
+    font-weight: 500;
+    font-style: normal; 
+    border-radius: 10px;
+
+}
+.dropdown button{
+    background-color: var(--color-blanco);
+    height: 25px;
+    font-size: small;
+    width: 200px;
+    color: var(--color-negro);
+   
+}

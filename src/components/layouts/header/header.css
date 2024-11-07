@@ -1,0 +1,50 @@
+.header{
+    background-color:#c9a03e;
+    background-image: url(file:///C:/Users/nicol/Downloads/Image%20by%20Karsten%20Winegeart.webp );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x:50px;
+    height: 60vh;
+    display: flex;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.info{
+    text-align: center;
+    font-family: "Montserrat", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    font-size:25px;
+    margin-left: 150px;
+    color: var(--color-gris-claro);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.info span{
+    font-family: "Montserrat", system-ui;
+    font-weight: 500;
+    font-size: 60px;
+    font-style: normal;
+}
+
+.info button{
+    background-color: var(--color-blanco);
+    font-family: "Montserrat", system-ui;
+    font-weight: 600;
+    border: none;
+    font-size: smaller;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    
+}

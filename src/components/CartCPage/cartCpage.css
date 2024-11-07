@@ -1,0 +1,78 @@
+.p1{
+    padding-top: 2rem;
+    font-size: large;
+    font-family: 'Montserrat',system-ui;  
+}
+
+.custom-link{
+color: var(--color-gris-oscuro);
+
+}
+.pages{
+    display: flex;
+    margin-bottom: 5rem;  
+    margin-right: 1rem; 
+    font-family: 'Montserrat',system-ui;
+}
+.step{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    width: 200px;
+    
+}
+ 
+
+.step h6{
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 2px;
+   
+}
+.step h1{
+    font-weight: 600;
+    padding: 1rem;
+    width: 80px;
+     border-radius: 50%;
+    background-color: var(--color-gris-oscuro);
+}
+
+
+.tablec{
+    display: flex;
+    justify-content: space-between;
+     width: 82%;
+
+}
+.tablec button{
+    background-color: var(--color-naranja);
+    padding: 10px;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.tablec .table1{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    border-radius: 10px;
+    background-color: var(--color-gris-claro);
+    margin-bottom: 2rem;
+}
+.tablep{
+    width: 400px;
+   
+} 
+.tablep td{ 
+    padding: 10px;
+}
+.tablep .total{
+    font-weight: 600;
+}
+
+

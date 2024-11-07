@@ -1,0 +1,59 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px  0 10px;
+    border-radius: 1px;
+    width: 250px;
+    border: none;
+    margin: 10px;
+    
+
+}
+
+.card .img-card img{
+    height: 200px;
+    padding: 5px
+
+}
+.card .details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    font-family: 'Montserrat', 'Segoe UI';
+}
+.card p{
+    margin-bottom: 10px;
+    font-size: small;
+    text-decoration:none;
+    color: black;
+    
+}
+
+.card h6{
+    text-decoration: line-through;
+    font-size: small;
+    color: var(--color-gris-oscuro);
+    margin-bottom: 0;
+}
+.card .price{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', 'Segoe UI';
+    
+   
+}
+.card h3{
+   font-size: 20px;
+
+}
+
+.card .price .pcl{
+  display: flex;
+}
+
+.pcl a{
+    color: black;
+    padding: 5px;
+}

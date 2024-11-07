@@ -1,0 +1,43 @@
+.section{
+    height: auto;
+    padding: 10px;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.section h3{
+font-family: "Montserrat", system-ui;
+    font-weight: 800;
+    font-style: normal;
+    
+}
+
+.section ul{
+    display: flex;
+    padding: 10px;margin-top: 5px;
+}
+.section li{
+    list-style: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: "Montserrat", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: larger;
+    margin-left: 10px;
+    transition: 1s ease;
+}
+
+.section li:hover{
+background-color: var(--color-amarillo);
+}
+
+.section .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

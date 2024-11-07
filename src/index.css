@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;500;600;700&display=swap');
+
+:root{
+  --color-blanco:#FEF8F0;
+  --color-gris-claro:#FFFCFA;
+  --color-negro:#212121;
+  --color-gris-oscuro:#998F8F;
+  --color-naranja:#EEB54C;
+  --color-amarillo:#FFE6B8;
+}
+
+body {
+  margin: 0;
+  box-sizing: content-box;
+   background-color: var(--color-blanco);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ 
