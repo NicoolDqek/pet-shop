@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import './grilla.css';
 const Grilla = () => {
   return (
     <div className='cg'>

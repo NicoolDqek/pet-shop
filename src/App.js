@@ -16,7 +16,7 @@ import ProductDetails from './pages/productDetails/ProductDetails.js';
 import ProductPage from './pages/productspage/ProductsPage.js';
 import SignUpPage from './pages/SignUpâge/SignUpPage.js';
 import WishPage from './pages/wishpage/WishPage.js';
-
+import ProductsPage from './pages/productspage/ProductsPage.js';
 function App() {
   return (
     <div>
@@ -24,7 +24,7 @@ function App() {
       <WishProvider>
     <Routes>
           <Route path="/" element={<HomePage/>} />
-          <Route path="/products" element={<ProductPage/>} />
+          <Route path="/products" element={<ProductsPage/>} />
           <Route path='/details/:id' element={<ProductDetails/>}></Route>
           <Route path='/cart' element={<CartPage/>}></Route>
           <Route path='/pay' element={<CartPage2/>}></Route>
