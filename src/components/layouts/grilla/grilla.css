@@ -18,26 +18,29 @@ position: relative;
 .grid-item a{
     margin: 10px;
     letter-spacing: 3px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
 }
 .grid-item:nth-child(1){
 grid-column: 1/2;
 grid-row: 1/3;
-background-image: url(../../../assets/dog.jpg);
+background-image: url(../../../assets/perr03-Photoroom.png);
 background-size: cover;
 }
 
 .grid-item:nth-child(2){
-background-image: url(../../../assets/cuy.webp);
+background-image: url( ../../../assets/lorogrid-fotor-bg-remover-20240131233149.png);
 background-size: cover;
 }
 
 .grid-item:nth-child(3){
-    background-image: url(../../../assets/lorogrid-fotor-bg-remover-20240131233149.png);
+    background-image: url(../../../assets/lorogrid-fotor-bg-remover-20240131233149.png );
     background-size: cover;
 }
 
 .grid-item:nth-child(4){
-    background-image: url(../../../assets/gatogrid.webp);
+    background-image: url(../../../assets/gatogrid.webp );
     background-size: cover;
     background-position-y: 1px;
     grid-column: 2/4;

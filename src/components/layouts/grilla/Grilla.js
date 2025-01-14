@@ -5,10 +5,10 @@ const Grilla = () => {
   return (
     <div className='cg'>
       <div className='grilla container'>
-        <div className='grid-item'><a>Para Perros</a></div>
-        <div className='grid-item'><a>Para Roedores</a></div>
-        <div className='grid-item'><a>Para Aves</a></div>
-        <div className='grid-item'><a>Para Gatos</a></div>
+        <div className='grid-item'><a href='ff'>Para Perros</a></div>
+        <div className='grid-item'><a  href='ff'>Para Roedores</a></div>
+        <div className='grid-item'><a href='ff'>Para Aves</a></div>
+        <div className='grid-item'><a href='ff'>Para Gatos</a></div>
       </div>
     </div>
   )

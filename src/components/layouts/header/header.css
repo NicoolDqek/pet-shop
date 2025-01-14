@@ -1,10 +1,10 @@
 .header{
     background-color:#c9a03e;
-    background-image: url(file:///C:/Users/nicol/Downloads/Image%20by%20Karsten%20Winegeart.webp );
+background-image: url(../../../assets/perro11.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-x:50px;
-    height: 60vh;
+    background-position: center;
+    height: 70vh;
     display: flex;
 }
 
