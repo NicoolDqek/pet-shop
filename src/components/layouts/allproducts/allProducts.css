@@ -2,33 +2,38 @@
     display: flex;
    width: 100%;
    
-   
  }
 
  .aside {
-    justify-content: center;
+   display: flex;
+   align-self: start;
+   justify-content: center;
     padding: 1rem;
     border-radius: 20px;
     padding: 3rem; 
-    width: 35%;
+    width: 40%;
+   
+   
      
 }
 .aside aside{
-   display: inline-flex;
+   
     background-color: var(--color-amarillo);
     border-radius: 20px;
     padding: 1rem;
     flex-direction: column;
     margin-left: 10%;
-        width: 40%;
+    width: 30%;
 
 
 }
 .aside .form-check{
     margin: 0;
-    display: inline-flex;
+    display:  flex;
     flex-direction: column;
     position: relative;
+    width: 100%;
+   
 }
 .form-check button i{
       color: black;
@@ -36,8 +41,22 @@
       right: 0;
       padding-right: 6px;
 
-
 }
+
+.btnf{
+   font-weight: bold;
+   margin-bottom: 0;
+   background-color: var(--color-naranja);
+   border: none;
+   min-width: 200px;
+
+   
+    
+   }
+   
+   .btnf:hover{
+      background-color: var(--color-gris-oscuro);
+   }
 
  
  .ti1 li a{
@@ -50,13 +69,16 @@
  
  .products{
     padding-top: 2rem;
+    height: min-content;
+    width: 100%;
+    
     
  }
  
  .cards{
     display: flex;
     flex-wrap: wrap;
-   
+    
 }
 
 .navigation{
@@ -78,27 +100,33 @@
    color: var(--color-negro);
    font-size: larger;
 }
-.btnf{
-font-weight: bold;
-margin-bottom: 0;
-background-color: var(--color-naranja);
-border: none;
-min-width: 300px;
-}
 
-.btnf:hover{
-   background-color: var(--color-gris-oscuro);
-}
+
 .cardf{
   background-color:var(--color-amarillo);
    display: flex;
  align-items: center;
- font-size: small;
+ font-size: 12px;
  letter-spacing: 2px;
+ justify-content: flex-start;
+
+ 
+ 
 }
+
+
 .cardf  input{
 background-color:var(--color-naranja);
 
  
+}
+
+.f1{
+   background-color: black;
+}
+
+.cardf label{
+min-width: 200px;
+  
 }
 
