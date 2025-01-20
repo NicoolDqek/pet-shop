@@ -48,16 +48,16 @@ const AllProducts = () => {
 
               {/* Primer filtro */}
               <div className="form-check">
-                <p className="d-inline-flex gap-1">
+                <p className="  gap-1">
                   <button className="btn btn-primary btnf" data-bs-toggle="collapse" href="#collapseFilter1" role="button" aria-expanded="false" aria-controls="collapseFilter1">
-                    Toggle first filter
+                    Marca
                   </button>
                 </p>
                 <div className="collapse multi-collapse" id="collapseFilter1">
                   <div className="cardf card-body alert-dark">
                     <input className="form-check-input" type="checkbox" value="" id="filter1Checkbox"></input>
-                    <label className="form-check-label" htmlFor="filter1Checkbox">
-                      First checkbox
+                    <label className="form-check-label " htmlFor="filter1Checkbox">
+                      Frikies
                     </label>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ const AllProducts = () => {
                   <div className="cardf card-body alert-dark">
                     <input className="form-check-input" type="checkbox" value="" id="filter1Checkbox"></input>
                     <label className="form-check-label" htmlFor="filter1Checkbox">
-                      First checkbox
+                      Blue
                     </label>
                   </div>
                 </div>
@@ -73,7 +73,7 @@ const AllProducts = () => {
                   <div className="cardf card-body alert-dark">
                     <input className="form-check-input" type="checkbox" value="" id="filter1Checkbox"></input>
                     <label className="form-check-label" htmlFor="filter1Checkbox">
-                      First checkbox
+                      Milk Bone
                     </label>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ const AllProducts = () => {
                   <div className="cardf card-body alert-dark">
                     <input className="form-check-input" type="checkbox" value="" id="filter1Checkbox"></input>
                     <label className="form-check-label" htmlFor="filter1Checkbox">
-                      First checkbox
+                     Cat show
                     </label>
                   </div>
                 </div>
@@ -91,14 +91,14 @@ const AllProducts = () => {
               <div className="form-check">
                 <p className="d-inline-flex gap-1">
                   <button className="btn btn-primary btnf" data-bs-toggle="collapse" href="#collapseFilter2" role="button" aria-expanded="false" aria-controls="collapseFilter2">
-                    Toggle second filter
+                    Tipo Producto
                   </button>
                 </p>
                 <div className="collapse multi-collapse" id="collapseFilter2">
                   <div className="cardf card-body alert-dark">
                     <input className="form-check-input" type="checkbox" value="" id="filter2Checkbox"></input>
                     <label className="form-check-label" htmlFor="filter2Checkbox">
-                      Second checkbox
+                      Juguetes
                     </label>
                   </div>
                 </div>
@@ -106,7 +106,23 @@ const AllProducts = () => {
                   <div className="cardf card-body alert-dark">
                     <input className="form-check-input" type="checkbox" value="" id="filter2Checkbox"></input>
                     <label className="form-check-label" htmlFor="filter2Checkbox">
-                      Second checkbox
+                      Accesorios
+                    </label>
+                  </div>
+                </div>
+                <div className="collapse multi-collapse" id="collapseFilter2">
+                  <div className="cardf card-body alert-dark">
+                    <input className="form-check-input" type="checkbox" value="" id="filter2Checkbox"></input>
+                    <label className="form-check-label" htmlFor="filter2Checkbox">
+                     Comida
+                    </label>
+                  </div>
+                </div>
+                <div className="collapse multi-collapse" id="collapseFilter2">
+                  <div className="cardf card-body alert-dark">
+                    <input className="form-check-input" type="checkbox" value="" id="filter2Checkbox"></input>
+                    <label className="form-check-label" htmlFor="filter2Checkbox">
+                      Salud
                     </label>
                   </div>
                 </div>
@@ -117,14 +133,14 @@ const AllProducts = () => {
               <div className="form-check">
                 <p className="d-inline-flex gap-1">
                   <button className="btn btn-primary btnf" data-bs-toggle="collapse" href="#collapseFilter3" role="button" aria-expanded="false" aria-controls="collapseFilter3">
-                    Toggle third filter
+                    Etapa de Vida
                   </button>
                 </p>
                 <div className="collapse multi-collapse" id="collapseFilter3">
                   <div className="cardf card-body alert-dark">
                     <input className="form-check-input" type="checkbox" value="" id="filter3Checkbox"></input>
                     <label className="form-check-label" htmlFor="filter3Checkbox">
-                      Third checkbox
+                     Cachorro
                     </label>
                   </div>
                 </div>
@@ -132,7 +148,7 @@ const AllProducts = () => {
                   <div className="cardf card-body alert-dark">
                     <input className="form-check-input" type="checkbox" value="" id="filter3Checkbox"></input>
                     <label className="form-check-label" htmlFor="filter3Checkbox">
-                      Third checkbox
+                    Adulto
                     </label>
                   </div>
                 </div>
@@ -140,26 +156,11 @@ const AllProducts = () => {
                   <div className="cardf card-body alert-dark">
                     <input className="form-check-input" type="checkbox" value="" id="filter3Checkbox"></input>
                     <label className="form-check-label" htmlFor="filter3Checkbox">
-                      Third checkbox
+                      Senior
                     </label>
                   </div>
                 </div>
-                <div className="collapse multi-collapse" id="collapseFilter3">
-                  <div className="cardf card-body alert-dark">
-                    <input className="form-check-input" type="checkbox" value="" id="filter3Checkbox"></input>
-                    <label className="form-check-label" htmlFor="filter3Checkbox">
-                      Third checkbox
-                    </label>
-                  </div>
-                </div>
-                <div className="collapse multi-collapse" id="collapseFilter3">
-                  <div className="cardf card-body alert-dark">
-                    <input className="form-check-input" type="checkbox" value="" id="filter3Checkbox"></input>
-                    <label className="form-check-label" htmlFor="filter3Checkbox">
-                      Third checkbox
-                    </label>
-                  </div>
-                </div>
+                
               </div>
 
             </div>
