@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    box-sizing: content-box;
+    padding: 0;
+    
+}
+
+.side_bar{
+    height: 100vh;
+    background-color: var(--color-naranja);
+}
+
+.nav-item i{
+    color: var(--color-negro);
+}

@@ -17,6 +17,7 @@ import ProductPage from './pages/productspage/ProductsPage.js';
 import SignUpPage from './pages/SignUpâge/SignUpPage.js';
 import WishPage from './pages/wishpage/WishPage.js';
 import ProductsPage from './pages/productspage/ProductsPage.js';
+import AdminPage from './pages/adminPage/AdminPage.js';
 function App() {
   return (
     <div>
@@ -32,7 +33,8 @@ function App() {
           <Route path='/wish' element={< WishPage/>}></Route>
           <Route path='/login' element={< LoginPage/>}></Route>
           <Route path='/signup' element={< SignUpPage/>}></Route>
-           <Route path="/search" element={<SearchPage />} />
+          <Route path="/search" element={<SearchPage />}></Route>
+          <Route path="/admin" element={<AdminPage />}></Route>
 </Routes>
 <ToastContainer/>
 </WishProvider>

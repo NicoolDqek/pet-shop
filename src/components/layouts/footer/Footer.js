@@ -1,7 +1,8 @@
+import { Link } from 'react-router-dom';
 import './footer.css';
 
 import React from 'react';
-
+ 
 const Footer = ({ hasMarginTop}) => {
   return (
     
@@ -10,7 +11,7 @@ const Footer = ({ hasMarginTop}) => {
         <h5 className='mb-3 text-center brant'>PetFriendly</h5>
         <i class="bi bi-instagram"></i>
         <i class="bi bi-send"></i>
-        <i class="bi bi-whatsapp"></i>
+        <Link to="/admin" ><i class="bi bi-whatsapp"></i></Link>
         </div>
         <div className='c2'>
         <div className='p2'>
